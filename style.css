@@ -1,0 +1,237 @@
+html,
+body {
+  background-color: #333;
+ 
+  margin: 0;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header .logo img {
+  width: 400px;
+  height: 150px;
+
+}
+
+.header .lang a {
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+}
+.header .lang a:hover,
+.menu li a:hover{
+  color: red;
+  border-bottom: 2px solid antiquewhite;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin: auto 10px;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #f2f2ff;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-ctn {
+  height: 75vh;
+  font-size: 100px;
+  color: yellow;
+  text-shadow: 3px 3px 3px red;
+  text-align: center;
+  background: url('./assets/mainlogo.webp');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-tesla {
+  margin: auto 30px;
+  display: flex;
+}
+
+.info a{
+
+  color:#ff0000;
+  
+  text-decoration:none
+}
+
+.info-ctn h3,
+.info-ctn h2,
+.info-ctn .info {
+  color: #f2f2ff;
+  font-size: 35px;
+}
+
+.info-ctn .info{
+  background-color: #2d2d2d;
+  padding: 30px;
+  border-radius: 16px;
+}
+.info-ctn .info .buy{
+  background: none;
+  color: #f2f2ff;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 1px solid #f2f2ff;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.info-ctn .info .buy:hover{
+  background-color: #ffffff;
+  color:red;
+}
+  
+
+
+
+
+.fqa {
+  margin: auto 30px 100px;
+  
+}
+
+.fqa h2 {
+  color: yellow;
+  font-size: 100px;
+  text-shadow: 3px 5px 3px red;
+  
+
+}
+
+.but{
+
+  right: 10px;
+  bottom:10px;
+  height: 90px;
+  width:90px;
+  position: fixed;
+
+}
+
+.butt{
+src:("./assets/teslaX.jpg") ;
+width: 100%;
+height: 100%;
+}
+
+.fqa .answers-ctn span{
+  padding: 10px 45px;
+  border: 1px solid #f2f2ff;
+  color: yellow;
+  text-shadow: 3px 3px 3px red;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+.fqa .answers-ctn span:hover{
+  background-color: #6456ff;
+  border: 1px solid #6456ff;
+
+}
+
+.inpt{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20px 50px 20px;
+  background-color: black;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+.inpt label{
+  color: white;
+  margin-left: 5px;
+}
+.inpt input:hover{
+  background-color:burlywood ;
+}
+.inpt input{
+  background-color:rgb(255, 255, 255) ;
+  border-radius: 7px;
+}
+
+.inpt button{
+  background-color: darkgoldenrod;
+  height: 40px;
+  width: 120px;
+  border-radius: 7px;
+}
+.inpt button:hover{
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+  border: 1px solid grey;
+}
+
+
+
+.cards{
+  margin: auto 30px 100px;
+  display: flex;
+}
+
+.cards .card{
+  padding: 15px 10px; 
+  background-color: #2d2d2d;
+  width: 33%;
+  border-radius: 18px;
+  color: #f2f2ff;
+  margin: auto 10px;
+}
+
+.cards .card img{
+  width: 100%;
+  height: 180px;
+}
+
+.cards .card button{
+  background: none;
+  border: 1px solid #f2f2ff;
+  padding: 15px 60px;
+  border-radius: 8px;
+  color: #f2f2ff;
+  cursor: pointer;
+}
+
+.cards .card:hover{
+  background-color: #6456ff;
+  position: relative;
+  top: -20px;
+}
+
+.cards .card:hover > button{
+  background-color: #f2f2ff;
+  color: #6456ff;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2ff;
+  padding: 30px 0;
+  border-top: 1px solid #f2f2ff;
+  margin: auto 30px;
+}
