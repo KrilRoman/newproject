@@ -1,0 +1,75 @@
+body{
+    background-color: #333;
+
+    margin: 0;
+}
+
+.menu{
+    display:flex;
+    margin-left: 150px;
+    
+}
+.menu li{
+    padding: 10px;
+
+}
+
+.menu li a:hover{
+    color: red;
+    border-bottom: 2px solid antiquewhite;
+  }
+
+li {
+    list-style-type: none;
+    font-size: 1.9rem;
+    color: yellow;
+
+}
+
+.inpt{
+    display: flex;
+
+
+}
+.inpt button{
+
+    height: 3cm;
+    
+}
+
+.inpt input{
+    height: 2cm;
+}
+
+.info p{
+    font-size: 2.2rem;
+}
+
+.buy{
+    height: 2cm;
+    background-color: white;
+}
+.buy a{
+    font-size: 1cm;
+}
+.card{
+    height: 10cm;
+    width: 10cm;
+    display: flex;
+    flex-direction: column;
+}
+.card p{
+    display: flex;
+}
+.carb button{
+    display: flex;
+    flex-direction: column;
+}
+/*Виводити числа від 1 до 100 , число з остачі діл на 3 буде 0 замінити на слово//
+*/
+.butt{
+    visibility: hidden;
+}
+.but{
+    visibility: hidden;
+}
